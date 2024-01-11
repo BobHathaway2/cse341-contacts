@@ -1,4 +1,7 @@
 // LOCAL
+### GET home
+GET http://localhost:3000
+
 ### GET all contacts
 GET http://localhost:3000/contacts
 
@@ -7,6 +10,9 @@ GET http://localhost:3000/contacts/659f0cf2ea5421b2800b9a1b
 
 
 // PRODUCTION
+### GET home
+GET https://cse341bh-contacts.onrender.com
+
 ### GET all contacts
 GET https://cse341bh-contacts.onrender.com/contacts
 
